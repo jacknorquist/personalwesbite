@@ -116,6 +116,17 @@ nav>a {
   height: 12vh;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
+  animation: block 6s infinite;
+}
+
+@keyframes block {
+  from {
+    background-color: #f0efee;
+  }
+
+  to {
+    background-color: black;
+  }
 }
 
 .intro {

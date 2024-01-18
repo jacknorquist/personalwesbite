@@ -107,6 +107,17 @@ nav>a {
 }
 
 
+.container-fluid.heading {
+  background-color: #f0efee;
+  padding-top: 5vb;
+  padding-bottom: 5vb;
+  margin: 0;
+}
+
+.container-fluid.heading>h1 {
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: white;
+}
 
 
 
@@ -149,17 +160,7 @@ img {
   align-items: center;
 }
 
-.h-background {
-  background-color: aqua;
-  width: 100vw;
-}
 
-.container-fluid.heading {
-  background-color: rgba(88, 88, 87, 0.74);
-  padding-top: 5vb;
-  padding-bottom: 5vb;
-  margin: 0;
-}
 
 .container-fluid.tags {
   position: relative;
