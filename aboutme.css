@@ -1,0 +1,193 @@
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header {
+  width: 100vw;
+  position: -webkit-sticky, sticky;
+  background-color: #f0efee;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+
+
+
+}
+
+nav {
+  padding-left: 2vw;
+}
+
+nav>a {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(8, 8, 8);
+  margin-right: auto;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+#socials {
+  padding-right: 3vw;
+}
+
+#socials>a>img {
+  width: 2vw;
+}
+
+
+
+
+.hero-container {
+  text-align: center;
+  clear: both;
+  margin: 0;
+}
+
+
+#hero-image {
+
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(33%);
+  opacity: 55%;
+
+}
+
+#hero-left {
+  position: absolute;
+  top: 55%;
+  bottom: 50%;
+  left: 10%;
+}
+
+
+.center {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40%;
+  bottom: 50%;
+  left: 45%;
+  right: 45%;
+  color: rgb(27, 27, 27);
+  text-align: center;
+  align-items: center;
+}
+
+.center>h1 {
+  font-weight: 200;
+  font-size: 4vw;
+  white-space: nowrap;
+}
+
+
+
+.center>#location {
+  display: inline-flex;
+  align-items: center;
+
+}
+
+.center>#location>img {
+  width: 3vw;
+}
+
+
+
+.center>#location>a>h2 {
+  display: inline-flex;
+  margin: 0;
+  white-space: nowrap;
+  text-decoration: none;
+  color: rgb(27 27 27);
+}
+
+
+
+
+
+
+
+
+img {
+  filter: grayscale(100%);
+  padding: .5vb;
+  z-index: 2;
+}
+
+.large-pic {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.square-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.col-4.d-flex.photos {
+  margin-top: 9vb;
+  padding: 1vb;
+  background-color: #f0efee;
+
+}
+
+.col-4.text {
+
+  padding: 3vb;
+  margin-top: 9vb;
+  text-wrap: wrap;
+}
+
+.el.d-flex {
+  align-items: center;
+}
+
+.h-background {
+  background-color: aqua;
+  width: 100vw;
+}
+
+.container-fluid.heading {
+  background-color: rgba(88, 88, 87, 0.74);
+  padding-top: 5vb;
+  padding-bottom: 5vb;
+  margin: 0;
+}
+
+.container-fluid.tags {
+  position: relative;
+  background-color: rgba(247, 232, 199, 0.74);
+  position: relative;
+  margin-left: calc(0% - 50vw);
+  width: 100vw !important;
+
+}
+
+
+.pb-3.heading {
+  position: relative;
+  top: 0;
+  left: 56%;
+  /* Position the h1 element at the center of the container */
+  transform: translateX(-50%);
+}
+
+.pb-3.heading> {
+  margin: 0;
+}
+
+.container-fluid.tags.d-flex.b {
+  position: relative;
+  background-color: rgba(247, 232, 199, 0.74);
+  position: relative;
+  margin-right: calc(0% - 50vw);
+  width: 100vw !important;
+
+}
